@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="hanung.space, cara mengganti repository termux"/>
+<meta name="description" content="hanung.space adalah blog pribadi yang digunakan hanya untuk have fun dan sharing pengetahuan saya"/>
+
+    <title>Cara mengganti repository termux</title>
+    <!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins&family=Space+Mono&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+  </head>
+  <body class="d-flex flex-column">
+    <div class="container header mt-3">
+<h1>Hanung Homepage</h1>
+<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../about/index.html">About</a></li>
+  <li><a href="index.html">Articles</a></li>
+  <li><a href="../project/index.html">Project</a></li>
+</ul>
+<hr class="mt-9 mb-3"/>
+</div>
+
+
+
+    <div class="container">
+      <div class="isiartikel">
+                  <figcaption class="blockquote-footer mb-3 mt-1 font-italic">
+            author • hanung, 30 Nov 2022
+          </figcaption>
+      <h1 class="artikel1 mb-5">Cara mengganti repository termux</h1>
+            <img src="../assets/img/thumb-repository.jpg" class="img-fluid mb-3">
+
+      <p class="mb-5">Cara ini pas untuk kamu yang mengalami kendala pada saat meng-install package di termux. Biasanya hal ini terjadi pada device yang sudah android 12 ke atas
+      <br>
+      namun ga perlu kawatir, ini solusi untuk masalah tersebut, hanya dengan mengganti repository termux nya saja.
+      <br>
+      <br>
+           <h6><strong>Step 1 - Meng-ganti repository</strong></h6><br>
+      untuk meng-ganti repository, kalian cukup ketikan saja command dibawah.
+        <figure class="bg-white p-3 rounded mt-3" style="border-left: .25rem solid #f8e600;">
+          <blockquote class="blockquote mt-3">
+            <code style="color: black;">
+              termux-change-repo
+            </code>
+          </blockquote>
+        </figure>
+        Selanjutnya langsung enter saja jika sudah memilih "main repository"
+  
+         <h6 class="mt-5"><strong>Step 2 - Memilih repository</strong></h6>
+      <img src="../assets/img/menu-repo.jpg" class="img-fluid mb-3 mt-3">
+      Pada menu pemilihan repository, kalian bisa pilih sesuai yang support dengan device kalian, bisa kalian coba 1 per 1.<br>
+      Jika sudah memilih repository, bisa langsung di enter saja. Dan jalankan command berikut:
+              <figure class="bg-white p-3 rounded mt-3" style="border-left: .25rem solid #f8e600;">
+          <blockquote class="blockquote mt-3">
+            <code style="color: black;">
+          pkg upgrade
+            </code>
+          </blockquote>
+        </figure>
+        Setelah run command di atas, termux akan memulai upgrade. jika muncul option <strong>Do you want to continue?</strong> ketikan saya Y pada command termux-nya.
+        <br>
+        <br>
+       Sampai sini kita sudah berhasil mengganti repository pada termux, selanjut nya kalian bisa coba untuk install kembali package yang sebelumnya ingin di install.
+         
+</p>
+    </div>
+            <div class="bg-transparent p-1 rounded mt-3" style="border: 1px solid white;">
+    <small class="author">
+      <i class="bi bi-star-fill"></i>
+      <a href="https://www.instagram.com/hanungp7/">
+    <i class="bi bi-instagram ml-1"></i></a> 
+    <a href="https://github.com/hanungetru"><i class="bi bi-github"></i></i></a>
+    </small>
+        </div>
+
+    </div>
+    <hr>
+    <footer class="footer">
+      <p>&copy; 2021 - 2022 • hanung dwi p</p>
+    </footer>
+  </body>
+</html>
