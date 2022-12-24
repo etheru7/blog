@@ -4,6 +4,10 @@ html, body {
   color: white;
   font-family: 'Poppins', sans-serif;
 }
+.sumber {
+  color: gray;
+  font-size: 13px;
+}
 .form-control {
   background-color: transparent;
   border: 1px solid white;
